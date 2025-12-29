@@ -1,0 +1,91 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Streamlit
+.streamlit/
+
+# Data files (exclude generated/temp data, keep sample data)
+# *.csv  # Commented - keep sample_credit_data.csv for demo
+# *.xlsx # Commented - keep sample_credit_data_complete.xlsx for demo
+*.db
+*.sqlite
+
+# PDF test files (generated during development)
+test_full.pdf
+test_short.pdf
+
+# Old/backup files
+app_old.py
+*_old.py
+*_backup.py
+*.bak
+
+# Logs
+*.log
+
+# OS specific
+Thumbs.db
+.DS_Store
+
+# Generated sample files
+generate_sample_excel.py  # Script untuk generate data, tidak perlu di repo
+
+# ===== DOKUMENTASI (JANGAN PUSH) =====
+# Semua file Markdown kecuali README.md
+LAPORAN_AKADEMIS.md
+PRESENTASI.md
+VIDEO_DEMO_SCRIPT.md
+SUBMISSION_CHECKLIST.md
+
+# Screenshot guide (internal only)
+screenshots/SCREENSHOT_GUIDE.md
+
+# Docs folder (dokumentasi akademis)
+docs/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment variables
+.env
+.env.local
