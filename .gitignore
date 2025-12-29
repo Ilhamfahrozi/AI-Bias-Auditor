@@ -46,9 +46,9 @@ env/
 *.db
 *.sqlite
 
-# PDF test files (generated during development)
-test_full.pdf
-test_short.pdf
+# PDF files - KEEP tutorial guides for users!
+# test_full.pdf  # Commented - keep PDF tutorial untuk user download
+# test_short.pdf # Commented - keep PDF tutorial untuk user download
 
 # Old/backup files
 app_old.py
